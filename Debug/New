@@ -1,0 +1,1 @@
+gst-launch -e v4l2src device="/dev/video0" ! nv_omx_videomixer ! nv_gl_eglimagesink
